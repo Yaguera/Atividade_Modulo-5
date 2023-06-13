@@ -21,6 +21,7 @@ header{
     background-color: #B00F15;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .logo{
@@ -74,8 +75,9 @@ header .container,
 }
 
 section .container{
-    align-items: flex-start;
+    align-items: center;
     padding-top: 50px;
+    height: 100%;
 
 }
 
@@ -129,6 +131,9 @@ section p {
 .icones img{
     width: 64px;
     padding-right: 16px;
+}
+#sobre {
+    padding-top: 0;
 }
 
 #catalogo{
